@@ -285,3 +285,13 @@ video {
 #contacts h1 {
   margin-top: 10px;
 }
+
+/* footer */
+
+.footer {
+  border: 1px solid gray;
+  padding: 0 2px;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: aquamarine;
+}
