@@ -9,9 +9,9 @@ I've added the codes on my github so my collegues,potential clients and professo
 
 ## Overview
 
-<<<<<<< HEAD
-Take a look :arrow_right: [here](https://ucynthy12.github.io/my-first-independent-project/)  and :arrow_down:  
-![Portfolio](/image/project.png")
+Take a look :arrow_right: [HERE](https://ucynthy12.github.io/my-first-independent-project/)  and :arrow_down:  
+
+  ![Portfolio](../image/project.png")
 
 
 ## Credits
