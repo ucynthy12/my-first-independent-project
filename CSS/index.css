@@ -137,7 +137,7 @@ body {
 .picture {
   width: 180px;
   height: 180px;
-  background: url(../image/cynthia.jpg);
+  background: url("../image/cynthia.jpg");
   background-size: cover;
   border-radius: 50%;
   shape-outside: circle();
