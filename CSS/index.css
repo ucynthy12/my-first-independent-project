@@ -109,3 +109,43 @@
   left: 0;
   z-index: 1;
 }
+
+/* about me section */
+
+#about {
+  margin: 20px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  border: 1px solid grey;
+  border-radius: 20px;
+  background: rgb(233, 231, 231);
+}
+
+.picture {
+  width: 180px;
+  height: 180px;
+  background: url(/image/cynthia.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin: 25px 30px;
+  flex-basis: 20%;
+}
+
+.aboutme {
+  flex-basis: 40%;
+}
+
+.aboutme h1 {
+  font-family: 'Metal Mania', cursive;
+  letter-spacing: 4px;
+  color: rgb(22, 24, 23);
+  text-align: center;
+}
+
+.aboutme p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
