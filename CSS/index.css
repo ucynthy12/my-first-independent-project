@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  padding: 2%;
+  background: linear-gradient(white, gray);
+}
+
+.body {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+/* styling navigation bar */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Homemade Apple', cursive;
+  position: relative;
+  background: #99ccff;
+}
+
+.nav-bar {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-menu a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scale(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  background: rgb(189, 39, 144);
+  transition: transform 0.5s ease-out;
+}
+
+.nav-menu a:hover::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+}
+
+/* header background */
+
+.background-picture {
+  background: url("/image/convention.jpg");
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  z-index: 2;
+  font-family: 'Merriweather', serif;
+}
+
+.description h1 {
+  color: #4da6ff;
+  ;
+  font-size: 60px;
+  font-family: 'Piedra', cursive;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateInDownLeft;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.description p {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+  letter-spacing: 6px;
+  text-align: center;
+  color: #fac1c1;
+}
+
+.overlay {
+  background: #000000b8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* about me section */
+
+#about {
+  margin: 20px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  border: 1px solid grey;
+  border-radius: 20px;
+  background: rgb(233, 231, 231);
+}
+
+.picture {
+  width: 180px;
+  height: 180px;
+  background: url(/image/cynthia.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin: 25px 30px;
+  flex-basis: 20%;
+}
+
+.aboutme {
+  flex-basis: 40%;
+}
+
+.aboutme h1 {
+  font-family: 'Metal Mania', cursive;
+  letter-spacing: 4px;
+  color: rgb(22, 24, 23);
+  text-align: center;
+}
+
+.aboutme p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+/* project */
+
+#project {
+  border: 1px solid gray;
+  margin: 0 20%;
+  border-radius: 10px;
+  background: rgb(233, 231, 231);
+}
+
+button {
+  margin-left: 57%;
+  animation: wobble;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: greenyellow;
+  border-radius: 5px;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercases;
+}
+
+video {
+  display: block;
+  margin: auto;
+  width: 700px;
+  width: 500px;
+}
+
+.video {
+  margin: 20px;
+}
+
+#project h4, #skills h1, #contacts h1 {
+  width: 100%;
+  padding-left: 40%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #a9cbeb;
+  color: #350066;
+}
+
+#project p, #contacts p {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(8, 8, 8);
+}
+
+.logo1 {
+  color: palevioletred;
+  font-family: 'Freckle Face', cursive;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.logo {
+  color: purple;
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+/* skills */
+
+#skills {
+  border: 1px solid gray;
+  margin: 20px 20%;
+  border-radius: 10px;
+  background: rgb(233, 231, 231);
+}
+
+#skills h3 {
+  padding: 5px;
+  margin-bottom: 1px;
+  margin-left: 20%;
+  color: rgb(32, 31, 31);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.container1 {
+  width: 60%;
+  background-color: #2c2c2c;
+  margin-left: 20%;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+}
+
+.css {
+  width: 70%;
+  background-color: #03a9f4;
+}
+
+.js {
+  width: 20%;
+  background-color: #f44336;
+  margin-bottom: 5px;
+}
+
+/* contacts */
+
+#contacts {
+  background: #9c9b9b;
+}
+
+#contacts ul {
+  display: flex;
+  height: 230px;
+  justify-content: space-evenly;
+  padding: 30px;
+  list-style: none;
+}
+
+#contacts a {
+  color: purple;
+}
+
+#contacts h1 {
+  margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+  border: 1px solid gray;
+  padding: 0 2px;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: aquamarine;
+}
