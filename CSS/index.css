@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
   height: 100%;
   padding: 2%;
@@ -15,6 +16,8 @@ body {
   border-radius: 10px;
 }
 
+=======
+>>>>>>> 99f6d54d6288cf157831d5a6ae4a49a9864cedbf
 /* styling navigation bar */
 
 .container {
@@ -164,6 +167,10 @@ body {
 /* project */
 
 #project {
+<<<<<<< HEAD
+=======
+  /* background-color :rgb(227, 252, 244); */
+>>>>>>> 99f6d54d6288cf157831d5a6ae4a49a9864cedbf
   border: 1px solid gray;
   margin: 0 20%;
   border-radius: 10px;
@@ -280,10 +287,13 @@ video {
 
 /* contacts */
 
+<<<<<<< HEAD
 #contacts {
   background: #9c9b9b;
 }
 
+=======
+>>>>>>> 99f6d54d6288cf157831d5a6ae4a49a9864cedbf
 #contacts ul {
   display: flex;
   height: 230px;

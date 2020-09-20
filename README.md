@@ -9,8 +9,12 @@ I've added the codes on my github so my collegues,potential clients and professo
 
 ## Overview
 
+<<<<<<< HEAD
 Take a look :arrow_right: [here](https://ucynthy12.github.io/my-first-independent-project/)  and :arrow_down:  
 ![Portfolio](/image/project.png")
+=======
+Take a look :arrow_right: [here](https://ucynthy12.github.io/my-first-independent-project/)  and :arrow_down.
+>>>>>>> 99f6d54d6288cf157831d5a6ae4a49a9864cedbf
 
 ## Credits
   . [Font Awesome](https://fontawesome.com/)
@@ -28,6 +32,7 @@ Take a look :arrow_right: [here](https://ucynthy12.github.io/my-first-independen
 ## License
 
 
+<<<<<<< HEAD
 Copyright (c) [2020] [Cynthia Umutoniwabo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -49,4 +54,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+=======
+>>>>>>> 99f6d54d6288cf157831d5a6ae4a49a9864cedbf
 
