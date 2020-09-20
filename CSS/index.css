@@ -1,54 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-  }
-
- /* styling navigation bar */
-
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'Homemade Apple', cursive;
-    position: relative;
-    background:#99ccff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nav-bar{
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-}
-.nav-menu{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-}
-.nav-menu li{
-    list-style: none;
+/* styling navigation bar */
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Homemade Apple', cursive;
+  position: relative;
+  background: #99ccff;
 }
-.nav-menu a{
-    text-decoration: none;
-    font-weight: bold;
-    position: relative;
+
+.nav-bar {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
-.nav-menu a::before{
-    content: '';
-    position: absolute;
-    width:100%;
-    transform: scale(0);
-    height: 2px;
-    bottom:0;
-    left:0;
-    transform-origin: bottom right;
-    background: rgb(189, 39, 144);
-    transition: transform 0.5s ease-out;
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
 }
-.nav-menu a:hover::before{
-    transform: scale(1);
-    transform-origin: bottom left;
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-menu a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scale(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  background: rgb(189, 39, 144);
+  transition: transform 0.5s ease-out;
+}
+
+.nav-menu a:hover::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+}
+
+/* header background */
+
+.background-picture {
+  background: url("image/convention.jpg");
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  z-index: 2;
+  font-family: 'Merriweather', serif;
 }
