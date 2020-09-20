@@ -218,6 +218,7 @@ video {
   font-size: 20px;
   font-weight: 600px;
 }
+
 /* skills */
 
 #skills {
@@ -265,4 +266,22 @@ video {
   width: 20%;
   background-color: #f44336;
   margin-bottom: 5px;
+}
+
+/* contacts */
+
+#contacts ul {
+  display: flex;
+  height: 230px;
+  justify-content: space-evenly;
+  padding: 30px;
+  list-style: none;
+}
+
+#contacts a {
+  color: purple;
+}
+
+#contacts h1 {
+  margin-top: 10px;
 }
