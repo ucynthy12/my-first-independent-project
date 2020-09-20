@@ -60,7 +60,7 @@
 /* header background */
 
 .background-picture {
-  background: url("image/convention.jpg");
+  background: url("/image/convention.jpg");
   width: 100%;
   height: 400px;
   position: relative;
@@ -75,4 +75,37 @@
   transform: translateY(-50%);
   z-index: 2;
   font-family: 'Merriweather', serif;
+}
+
+.description h1 {
+  color: #4da6ff;
+  ;
+  font-size: 60px;
+  font-family: 'Piedra', cursive;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateInDownLeft;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.description p {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+  letter-spacing: 6px;
+  text-align: center;
+  color: #fac1c1;
+}
+
+.overlay {
+  background: #000000b8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
