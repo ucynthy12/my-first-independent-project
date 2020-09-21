@@ -26,11 +26,12 @@ Take a look at my potfolio :arrow_right: [HERE](https://ucynthy12.github.io/my-f
   . [Animte.css](https://animate.style/)
 
 ## Known Bugs  
+ The profile picture not showing.  
 
- The website isn't responsive yet.
 ## Features
 
 1. HTML5 + CSS3.
+2. Fully responsive.
 3. Compatible with all modern browser.
 
 ### Contacts 
