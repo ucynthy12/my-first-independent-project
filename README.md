@@ -1,19 +1,23 @@
 
-# Portofolio
+# Portfolio
 
 ## Hi I'm **Cynthia Umutoniwabo** :relaxed:    
 
 My personal portfolio contains an about me, my recent project and some coding skills i acquired so far at **Moringa School**. 
 
+## Description
+  
 I've added the codes on my github so my collegues,potential clients and professors can swoop around them.
 
 ## Overview
 
-Take a look :arrow_right: [HERE](https://ucynthy12.github.io/my-first-independent-project/)  and :arrow_down:  
+Take a look at my potfolio :arrow_right: [HERE](https://ucynthy12.github.io/my-first-independent-project/)  and :arrow_down:  
 
-  ![Portfolio](../image/project.png")
+  ![Portfolio](./image/project.png)
 
-
+## Setup
+  This is just a template of my own portfolio.
+  
 ## Credits
   . [Font Awesome](https://fontawesome.com/)
 
@@ -21,16 +25,26 @@ Take a look :arrow_right: [HERE](https://ucynthy12.github.io/my-first-independen
 
   . [Animte.css](https://animate.style/)
 
+## Known Bugs  
+
+ The website isn't responsive yet.
 ## Features
 
 1. HTML5 + CSS3.
-2. Fully Responsive.
 3. Compatible with all modern browser.
 
-## License
+### Contacts 
+
+1. Email: *ucynthy12@gmail.com*
+2. Github 
 
 
-<<<<<<< HEAD
+     .username: **ucynthy12**   
+     .name: **Cynthia Umutoniwabo**
+
+### License
+
+
 Copyright (c) [2020] [Cynthia Umutoniwabo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
