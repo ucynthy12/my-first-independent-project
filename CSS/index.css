@@ -25,6 +25,7 @@ body {
   font-family: 'Homemade Apple', cursive;
   position: relative;
   background: #99ccff;
+  overflow: hidden;
 }
 
 .nav-bar {
@@ -300,6 +301,24 @@ video {
   margin-top: 10px;
 }
 
+.fa-phone {
+  animation: wobble;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.fa-envelope {
+  animation: flash;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.fa-github {
+  animation: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 /* footer */
 
 .footer {
@@ -308,4 +327,108 @@ video {
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   background-color: aquamarine;
+}
+
+/* responsive */
+
+@media screen and (max-width:768px) and (min-width:320px) {
+  .nav-menu {
+    position: absolute;
+    background-color: cyan;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  #about {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2%;
+  }
+  #aboutme p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1px;
+    color: rgb(21, 22, 22);
+  }
+  .background-picture {
+    height: 180px;
+    background-size: cover;
+  }
+  .description h1 {
+    font-size: 20px;
+  }
+  .picture {
+    width: 40px;
+    height: 40px;
+    background: url(image/cynthia.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    shape-outside: circle();
+    margin: 25px 30px;
+    flex-basis: initial;
+    position: absolute;
+  }
+  #about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutme {
+    border: 1px solid gray;
+    padding: 1%;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+  .aboutme h1 {
+    font-size: inherit;
+  }
+  .aboutme p {
+    font-size: inherit;
+  }
+  video {
+    width: 90%;
+  }
+  #project h4, #skills h1, #contacts h1 {
+    font-size: inherit;
+  }
+  #project h4 {
+    padding-left: 70px;
+  }
+  #project p {
+    font-size: inherit;
+  }
+  #project {
+    width: 80%;
+  }
+  .body {
+    padding: 0;
+    overflow: hidden;
+  }
+  #skills {
+    width: 80%;
+  }
+  #skills h3 {
+    font-size: inherit;
+  }
+  #contacts ul {
+    font-size: 5px;
+  }
+  #concts h1 {
+    ;
+  }
+  #contacts p {
+    font-size: inherit;
+  }
+  #contacts {
+    height: 200px;
+  }
+  .footer {
+    font-size: 10px;
+  }
 }
